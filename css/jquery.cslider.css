@@ -56,7 +56,7 @@
 
 }
 .da-slide h2, .da-slide h4, .da-slide p, .da-slide .da-link, .da-slide .da-img {
-    position: absolute;
+    /* position: ; */
     opacity: 0;
     filter: alpha(opacity=0);
     left: 110%;
@@ -105,7 +105,7 @@
 }
 .da-slide .da-img {
     text-align: center;
-    width: 40%;
+    width: 100%;
     top: 80px;
     height: 256px;
     line-height: 360px;
@@ -120,7 +120,7 @@
 }
 .da-dots {
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
     left: 0px;
     bottom: 20px;

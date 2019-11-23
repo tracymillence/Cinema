@@ -3,7 +3,8 @@
 1. General
 **********************************************************************/
  body {
-    font-family:'Roboto', sans-serif;
+    /* font-family:'Roboto', sans-serif; */
+    font-family: 'Nunito', sans-serif;
     color: #FFF;
     line-height:1.2em;
     font-size:17px;
@@ -65,7 +66,7 @@ p {
     transition: border-color 1s ease;
 }
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    border: 1px solid #FECE1A;
+    border: 1px solid #fb00ff;
     color: #fff;
     background-color: #181A1C;
     transition: border-color 1s ease;
@@ -74,16 +75,16 @@ p {
     margin-bottom: 30px;
 }
 .nav-pills > li > a {
+    border: 1px outset #e82aff;border-radius: 38px 6px 40px 6px;
     background: transparent;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    border-radius: 0;
     margin-right:5px;
     padding-left:25px;
     padding-right:25px;
-    border: 1px solid #181A1C;
 }
 .nav-pills > li > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
+    border: 1px outset #e82aff;border-radius: 38px 6px 40px 6px;
     background: #181A1C;
     color: #fff;
 }
@@ -180,8 +181,8 @@ p {
 2.2 Buttons - There are buttons on a transparent background, primary and secondary color background.
 **********/
  .button,  .button:visited, .button:focus {
+    border: 6px outset #e82aff;border-radius: 38px 6px 40px 6px;
     display:inline-block;
-    border:1px solid #181A1C;
     color:#181A1C;
     background-color:transparent;
     padding:15px 30px;
@@ -770,6 +771,7 @@ p {
 3.8 Footer
 ********************************************************************/
  .footer {
+    padding: 30px;
     background: #181A1C;
     text-align: center;
 }
