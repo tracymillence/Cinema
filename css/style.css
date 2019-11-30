@@ -27,7 +27,7 @@ h1 {
 p {
     padding: 10px;
     font-weight: 100;
-    color: #fff;
+    color: #ffffff;
 }
 .navbar {
     background: #181A1C;
@@ -347,7 +347,7 @@ p {
     color: #FECE1A;
 }
 .primary-section h1 {
-    color:#FFF;
+    color:#fff;
 }
 .secondary-section {
     background: #3d3b44;
@@ -356,7 +356,7 @@ p {
     border-bottom: 1px solid #181A1C;
 }
 .secondary-section h1, .secondary-section .title p {
-    color: #181A1C;
+    color: #fff;
 }
 /* Third section use bacground image */
 .third-section {

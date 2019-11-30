@@ -4,7 +4,7 @@
 <head>
     <meta charset=utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pluton Theme by BraphBerry.com</title>
+    <title>Đặt Vé Xem Phim Online</title>
     <!-- Load Roboto font -->
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <!-- <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'> -->
@@ -37,19 +37,10 @@
                     <!-- This is website logo -->
                     CINEMA THEATER
                 </a>
-                <!-- Navigation button, visible on small resolution -->
-                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                    <i class="icon-menu"></i>
-                </button>
                 <!-- Main navigation -->
                 <div class="nav-collapse collapse pull-right">
                     <ul class="nav" id="top-navigation">
-                        <li class="active"><a href="index.html">Trang Chủ</a></li>
-                        <li><a href="#service">Dịch Vụ</a></li>
-                        <li><a href="#portfolio">Phim</a></li>
-                        <li><a href="#about">Rạp</a></li>
-                        <li><a href="#price">Giá Vé</a></li>
-                        <!-- <li><a href="#contact">Liên Hệ</a></li> -->
+                        <li><a href="">Đặt Vé</a> </li>
                     </ul>
                 </div>
                 <!-- End main navigation -->
@@ -57,21 +48,35 @@
         </div>
     </div>
 
-    <div class="to">
-        <form action="">
-            <h2>Đặt Vé</h2>
-            <!-- <i class="fab fa-app-store-ios"></i> -->
-            <label style="margin-left: -150px;">Số Ghế</label>
-            <input type="text" name="soghe">
-            <label>Loại vé</label>
-            <input type="radio" value="VIP" class="radio">VIP
-            <input type="radio" value="Thường" class="radio">Thường
-            <label>Loại rạp</label>
-            <input type="radio" value="IMAX" class="radio">IMAX
-            <input type="radio" value="4D" class="radio">4D
-            <input id="submit" type="submit" name="submit" value="Đặt vé Ngay">
-        </form>
-
+    <div class="container">
+        <h1 class="text-center"></h1>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 well well-sm col-md-offset-4">
+                <legend> Đăng Ký Đặt Vé Xem Phim - Thông Tin Khách Hàng </legend>
+                <form action="" method="post" class="form" role="form">
+                    <input class="form-control" name="firstname" placeholder="Họ" required="" autofocus="" type="text">
+                    <input class="form-control" name="lastname" placeholder="Tên" required="" type="text">
+                    <input class="form-control" name="youremail" placeholder="Email" type="email">
+                    <input class="form-control" name="password" placeholder="Mật khẩu" type="password">
+                    <input class="form-control" name="retypepassword" placeholder="Nhập lại mật khẩu" type="password">
+                    <br>
+                    <div class="form-group">
+                        <div id="filterDate2">
+                            <!-- Datepicker as text field -->
+                            <div class="input-group date" data-date-format="dd.mm.yyyy">
+                                <input type="text" class="form-control" placeholder="dd.mm.yyyy">
+                                <div class="input-group-addon">
+                                    <i class="icon-calendar"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit"> Đăng ký</button>
+                </form>
+            </div>
+        </div>
     </div>
 
 
@@ -126,7 +131,6 @@
         </div>
     </div>
     <div class="footer">
-
         <p>@ 2019 by Thuy Hoang & An Dao</p>
     </div>
     </div>
