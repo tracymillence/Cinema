@@ -588,11 +588,11 @@ p {
     margin-bottom: 20px;
 }
 .price-column {
-    background-color:white;
+    /* background-color:#fdfcf0; */
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 10px;
-    padding-bottom:20px;
+    border-radius: 0px;
+    padding: 10px;
     margin:0 auto;
     text-align:center;
 }
