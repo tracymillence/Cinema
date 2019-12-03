@@ -56,7 +56,8 @@
                 <form action="">
                     <div class="form-group">
                         <label for="ho">Họ</label>
-                        <input class="form-control" name="firstname" placeholder="Họ" required="" autofocus="" type="text">
+                        <input class="form-control" name="firstname" placeholder="Họ" required="" autofocus=""
+                            type="text">
                     </div>
                     <div class="form-group">
                         <label for="ten">Tên</label>
@@ -67,18 +68,33 @@
                         <input class="form-control" name="youremail" placeholder="Email" type="email">
                     </div>
                     <div class="form-group">
-                        <label for="pass">Mật Khẩu</label>
-                        <input class="form-control" name="retypepassword" placeholder="Nhập lại mật khẩu" type="password">
+                        <label for="pass">Số điện thoại</label>
+                        <input class="form-control" name="yourphone" placeholder="Số điện thoại" type="tel"
+                            pattern="[0]{1}[1-9]{2}[0-9]{3}[0-9]{4}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="day-hour">Ngày - Giờ</label>
+                        <div class='col-xs-4 input-group date'>
+                            <input type="text" class="form-control datepicker" />
+                            </span>
+                        </div><br>
+                        <script>
+                            $('.datepicker').datetimepicker({
+                                format: 'DD-MM-YYYY HH:mm:ss'
+                            });</script>
                     </div>
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
                             <button class="btn-primary btn" type="submit"> Đăng ký</button>
                         </div>
-                      </div>
-
+                    </div>
+                    <p>
+                        <blockquote> Nhân viên của chúng tôi sẽ liên lạc với khách hàng để xác nhận thông tin vé!
+                        </blockquote>
+                    </p>
                 </form>
 
-                
+
             </div>
         </div>
     </div>

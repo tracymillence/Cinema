@@ -2510,6 +2510,7 @@ table th[class*="span"],
 }
 
 .well {
+  max-width: fit-content;
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
